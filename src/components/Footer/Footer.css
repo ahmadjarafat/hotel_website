@@ -1,0 +1,140 @@
+.footer{
+    background-color: #14274a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    height: 150px;
+    align-items: center;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-container{
+    margin-top: 10px;
+}
+
+.email{
+    border-style: solid;
+    padding: 5px 100px 5px 15px;
+    border-width: 2px;
+    border-color:  #e0b973;
+}
+
+.home-footer{
+    margin-left: 14px;
+    margin-top: 2px;
+    font-size: 5px;
+    font-family: "Ines Extra Bold";
+    font-weight: 400;
+}
+
+.luxury-footer{
+    font-family: "Francisco Serial Bold";
+    font-size: 15px;
+    
+}
+
+.paragraph-footer{
+    margin-top: 10px;
+    font-size: 8px;
+}
+
+.contact{
+margin-top: 8px;
+}
+
+.terms{
+    margin-top: 8px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.button{
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9px;
+    background-color:  #e0b973;
+    border-color:  #e0b973;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.Testimonials{
+    font-family: Adobe® Garamond® Pro Bold;
+    margin-top: 74px;
+    font-size: 32px;
+    color: #14274a;
+    font-weight: 600;
+}
+
+.Testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.Testimonials-paragraph{
+    margin-top: 27px;
+    color:  #14274a;
+    font-weight: 500;
+    font-family: "Times New Roman";
+}
+
+.Mr{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color:  #14274a;
+}
+
+.Testimonials-navigation{
+    display: flex;
+    flex-direction: row;
+    width: 68px;
+    justify-content: space-between;
+    margin-top: 14px;
+
+    
+}
+
+.arrow{
+    padding: 4px 7px 4px 7px;
+    background-color:  #e0b973;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+    border-bottom: 40px solid  #14274a;
+    margin: auto;
+}

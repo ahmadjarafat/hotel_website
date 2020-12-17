@@ -1,0 +1,55 @@
+.luxury-container{
+    background-color: #e0b973;
+    width: 182px;
+    height: 95px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.luxury{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Francisco Serial Bold";
+    font-weight: 600;
+}
+
+.Hotels{
+    font-family: "Cultura New Bold";
+    font-size: 10px;
+}
+
+.navigation{
+    width: 498px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin: auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    }
+    a:visited {
+    color:white;
+    text-decoration: none;
+    }
+    a:hover {
+    color:white;
+    text-decoration-line: underline;
+    }
+   
+      
+
+   
+

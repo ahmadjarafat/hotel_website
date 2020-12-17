@@ -1,0 +1,83 @@
+.Paragraph-header{
+    margin-top: 143px;
+    margin-left:151px;
+    color: white;
+}
+
+.welcome{
+    font-size: 30px;
+}
+
+
+.luxury-paragraph{
+    font-family: "Francisco Serial Bold";
+    font-size: 80px;
+    font-weight: 700;
+}
+
+
+.hotels-paragraph{
+    font-family: "Ines Extra Bold";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Book-now-container{
+    width: 140px;
+    padding: 10px;
+    background-color: #e0b973;
+    margin-top: 80px;
+    margin-left: 588px;
+    border-radius: 5px;
+}
+
+.book-now{
+color: white;
+font-size: 15px;
+font-weight: 700;
+}
+
+.home-book{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 110px;
+}
+
+.home{
+    margin-top: 2px;
+}
+
+.scroll {
+    margin-top: 10px;
+    margin-left: 650px;
+    height: 43px;
+    width: 43px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header{
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 20px;
+  }
+
+
+  .Scroll-text{
+    margin-left: 648px;
+    margin-top: 57px;
+    color: white;
+    font-weight: 500;
+  }
+
+  
+
+  
+  
+
+
+    

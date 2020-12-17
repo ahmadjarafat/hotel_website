@@ -1,0 +1,42 @@
+.vector{
+    height: 160px;
+    border: 1px solid gray;
+    margin-right: 30px;
+    }
+
+.home-photo{
+    width: 450px;
+    height: 300px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.component-home-header{
+    font-family: Adobe® Garamond® Pro Bold;
+    font-size: 32px;
+    color: #14274a;
+    font-weight: 600;
+}
+
+.component-home-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.home-paragraph{
+    margin-top: 25px;
+}
+
+.explore {
+    margin-top: 20px;
+    width: 130px;
+    padding: 10px;
+    background-color: #e0b973;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: Bahnschrift;
+}

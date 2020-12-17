@@ -1,0 +1,29 @@
+.container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: end; */
+}
+
+.caption{
+    width: 400px;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 600;
+    color: #14274a;
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+
+.Buffer{
+    height: 570px;
+    width: 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.Facilities-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.components-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3850px;
+    justify-content: space-between;
+}

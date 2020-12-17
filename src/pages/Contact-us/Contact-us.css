@@ -1,0 +1,86 @@
+.head{
+    color: #14274a;
+    font-size: 29px;
+    font-family: Adobe® Garamond® Pro Bold;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.paragraph-contact{
+    margin-top: 22px;
+    color: #14274a;
+    font-weight: 500;
+}
+
+.bottom-contact{
+    margin-top: 90px;
+    font-size: 20px;
+    color: #14274a;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.view-contact{
+    font-size: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    }
+
+.contact-us-all{
+   display: flex;
+   justify-content: center;
+}
+
+.arrow-contact-us{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.phone{
+    margin-top: 15px;
+}
+
+.message{
+    height: 170px;
+    width: 300px;
+}
+
+.message-label{
+    margin-top: 15px;
+}
+
+.email-address-contact{
+    margin-top: 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 250px;
+}
+
+.email-address-input,.Name{
+    height: 30px;
+    width: 300px;
+}
+
+.submit{
+    width: 80px;
+    align-self: flex-end;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #e0b973;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    font-family: Trebuchet MS;
+    text-align: center;
+    border: none;
+}
+
+

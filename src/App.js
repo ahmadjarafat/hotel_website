@@ -1,24 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import {Home} from "./pages/Home/Home"
+import Header from "./components/Header/Header"
+import {Footer} from "./components/Footer/Footer"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,} from  "react-router-dom";
+  import Backgroundfirst from "./hotel-pool.jpg";
+  import Backgroundsecond from "./hotel-view.jpg";
+  import Backgroundthird from "./Room.jpg"
+import { Facilities } from './pages/Facilities/Facilities';
+import {Rooms} from "./pages/Rooms/Rooms"
+import {ContactUS} from "./pages/Contact-us/Contact-us"
+import {HeaderUsTop} from "./components/ContactUsHeader/ContactUsHeader"
+
+  
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+      <Switch>
+      <Route path="/Facilities">
+      <Header background= {Backgroundfirst}/>
+      <Facilities />
+      </Route>
+      <Route path="/Rooms">
+        <Header background= {Backgroundthird} />
+        <Rooms />
+      </Route>
+      <Route path="/Contact-us">
+        <HeaderUsTop />
+        <ContactUS />
+      </Route>
+      <Route path="/">
+      <Header background= {Backgroundsecond} />
+      <Home />
+      </Route>
+      </Switch>
+      <Footer />
+      </Router>
+     
+      
+      
   );
 }
 
