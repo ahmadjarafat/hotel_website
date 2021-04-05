@@ -22,7 +22,7 @@ function App() {
 
   return (
     
-    <Router>
+    <Router basename="/hotel_website">
       <Switch>
       <Route path="/Facilities">
       <Header background= {Backgroundfirst}/>
